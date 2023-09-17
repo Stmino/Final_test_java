@@ -1,0 +1,31 @@
+   19  cat > Dom_zhivotnie.txt <<EOF
+Dogs
+Cats
+Humsters
+EOF
+
+   20  cat Viych_zhivotnie.txt <<EOF
+Horses
+Camels
+Donkeys
+EOF
+
+   21  cat > Viych_zhivotnie.txt <<EOF
+Horses
+Camels
+Donkeys
+EOF
+
+   22  cat Viych_zhivotnie.txt Dom_zhivotnie.txt > Mans_freinds.txt
+   23  cat Mans_freinds.txt 
+   24  mv Mans_freinds.txt Freinds.txt
+   25  mkdir New_dir
+   26  mv Freinds.txt New_dir/
+   27  sudo add-apt-repository mysql-repo
+   28  sudo wget https:/dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+   29  sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb
+   30  sudo apt-get update 
+   31  sudo apt-get install mysql-server
+   32  sudo apt-get install htop
+   33  sudo apt-get remove htop
+
